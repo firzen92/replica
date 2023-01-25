@@ -1,0 +1,14 @@
+.query-editor-container {
+    width: 400px;
+    margin: 0 auto;
+    .qEditor {
+        width: 400px;
+        height: 200px;
+        border: 1px solid blue;
+    }
+    
+    coral-multi-input {
+        margin-bottom: 10px;
+        width: 400px;
+    }
+}

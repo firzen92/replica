@@ -1,0 +1,11 @@
+<div class="query-editor-container">
+  <p>query-editor works!</p>
+  <coral-multi-input
+    #likeInput
+    placeholder="Enter text here"
+    (item-added)="onQueryAdded($event)"
+    (item-removed)="onQueryRemoved($event)"
+  ></coral-multi-input>
+  <hr>
+  <div #qEditor class="qEditor" contenteditable="true" [highlight]="'sort'"></div>
+</div>
